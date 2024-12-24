@@ -25,7 +25,7 @@ func CosmosBalanceParser(resp []byte, denom string) (float64, error) {
 	}
 
 	if stringBalance == "" {
-		return 0, fmt.Errorf("failed to get specific denom balnce")
+		return 0, fmt.Errorf("failed to get specific denom balance")
 	}
 
 	balance, err := strconv.ParseFloat(stringBalance, 64)

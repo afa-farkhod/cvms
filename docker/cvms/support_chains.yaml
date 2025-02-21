@@ -1246,7 +1246,7 @@ uni-6:
     - upgrade
     - uptime
     - voteindexer
-union-testnet-8:
+union-testnet-9:
   chain_name: union
   protocol_type: cosmos
   mainnet: false

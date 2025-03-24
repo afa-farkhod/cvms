@@ -776,6 +776,7 @@ ledger-testnet-1:
     - block
     - upgrade
     - uptime
+    - voteindexer
 mantle-1:
   chain_name: asset-mantle
   protocol_type: cosmos
